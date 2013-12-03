@@ -1,0 +1,9 @@
+D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\bin\Debug\PulseComm.exe.config
+D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\bin\Debug\PulseComm.exe
+D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\bin\Debug\PulseComm.pdb
+D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.csprojResolveAssemblyReference.cache
+D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.Properties.Resources.resources
+D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.csproj.GenerateResource.Cache
+D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.exe
+D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.pdb
+D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.Main.resources
