@@ -280,7 +280,6 @@
             this.groupBox1.TabIndex = 28;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "发送窗口";
-            this.groupBox1.Visible = false;
             // 
             // checkBoxTrimSpace
             // 
@@ -291,7 +290,6 @@
             this.checkBoxTrimSpace.TabIndex = 7;
             this.checkBoxTrimSpace.Text = "去掉所有空格";
             this.checkBoxTrimSpace.UseVisualStyleBackColor = true;
-            this.checkBoxTrimSpace.Visible = false;
             // 
             // btnSend
             // 
@@ -302,7 +300,6 @@
             this.btnSend.TabIndex = 5;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
-            this.btnSend.Visible = false;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // checkBox1
@@ -341,7 +338,6 @@
             this.txtBoxSend.Name = "txtBoxSend";
             this.txtBoxSend.Size = new System.Drawing.Size(868, 85);
             this.txtBoxSend.TabIndex = 1;
-            this.txtBoxSend.Visible = false;
             // 
             // Main
             // 

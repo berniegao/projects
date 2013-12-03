@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PulseComm
 {
@@ -11,7 +9,7 @@ namespace PulseComm
         protected int[] _dataArray;
         protected int[] _dataHexArray;
         protected bool _passValidation = false;
-        delegate void PopupMsg(String);
+        public delegate  void PopupMsg(String msg);
         public PopupMsg OnPopupMsg;
 
         protected void Init()

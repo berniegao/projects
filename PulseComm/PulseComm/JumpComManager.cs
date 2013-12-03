@@ -11,7 +11,7 @@ namespace PulseComm
         private MachineVersion _machineVersion;
         private JumpSampling _sampling;
 
-        public event EventHandler<string> onMessagePopup;
+        public event EventHandler<EventArgs> onMessagePopup;
 
         public JumpComManager()
         {
