@@ -316,9 +316,10 @@ namespace PulseComm
             //CommHexInfo info = new CommHexInfo() { ReceiveData = ReceiveData };
             //_jumpSampling.AddSample(info);
             string msg = null;
+            msg = ReceiveData;
              //info.GetMessage();
             //txtBoxMSG.AppendText(msg);
-            safeAddtrText(msg);//显示数据的委托
+            safeAddtrText(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "：" + msg + "\r\n");//显示数据的委托
             //txtBoxMSG.AppendText(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "：" + msg + "\r\n");
         }
 

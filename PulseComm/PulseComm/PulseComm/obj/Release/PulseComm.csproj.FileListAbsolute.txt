@@ -7,3 +7,12 @@ D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Release\PulseCom
 D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Release\PulseComm.exe
 D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Release\PulseComm.pdb
 D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Release\PulseComm.csprojResolveAssemblyReference.cache
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\bin\Release\PulseComm.exe.config
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Release\PulseComm.exe
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Release\PulseComm.csprojResolveAssemblyReference.cache
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Release\PulseComm.Main.resources
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Release\PulseComm.Properties.Resources.resources
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Release\PulseComm.csproj.GenerateResource.Cache
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\bin\Release\PulseComm.exe
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\bin\Release\PulseComm.pdb
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Release\PulseComm.pdb

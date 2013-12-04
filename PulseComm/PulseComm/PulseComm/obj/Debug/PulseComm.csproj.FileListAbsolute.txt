@@ -7,3 +7,12 @@ D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.
 D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.exe
 D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.pdb
 D:\skyDrive\work\跳动通讯\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.Main.resources
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\bin\Debug\PulseComm.exe.config
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.exe
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.pdb
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\bin\Debug\PulseComm.exe
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\bin\Debug\PulseComm.pdb
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.csprojResolveAssemblyReference.cache
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.Main.resources
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.Properties.Resources.resources
+E:\gitHub\projects\PulseComm\PulseComm\PulseComm\obj\Debug\PulseComm.csproj.GenerateResource.Cache
