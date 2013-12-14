@@ -1,0 +1,27 @@
+<XMLElement name = "Root">
+	<XMLElement name = "A">A
+		<XMLElement name = "AA">AA</XMLElement>
+		<XMLElement name = "AB">AB</XMLElement>
+		<XMLElement name = "AC">AC</XMLElement>
+	</XMLElement>
+	<XMLElement name = "B">B
+		<XMLElement name = "BA">BA
+			<XMLElement name = "BAA">BBA</XMLElement>
+			<XMLElement name = "BAB">BBB</XMLElement>
+			<XMLElement name = "BAC">BBC
+				<XMLElement name = "BACA">BACA</XMLElement>
+				<XMLElement name = "BACB">BACB</XMLElement>
+			</XMLElement>
+		</XMLElement>
+		<XMLElement name = "BB">BB
+			<XMLElement name = "BBA">BBA</XMLElement>
+			<XMLElement name = "BBB">BBB</XMLElement>
+			<XMLElement name = "BBC">BBC</XMLElement>
+		</XMLElement>
+	</XMLElement>
+	<XMLElement name = "C">C
+		<XMLElement name = "CA">CA</XMLElement>
+		<XMLElement name = "CB">CB</XMLElement>
+		<XMLElement name = "CC">CC</XMLElement>
+	</XMLElement>
+</XMLElement>

@@ -1,0 +1,93 @@
+<devices>
+	<device>
+		<name>Pulse/Triangle Voltage Controlled Oscillator</name>
+		<type>VCO</type>
+		<part_number>DS001</part_number>
+		<supply_voltage>
+			<minimum>3</minimum>
+			<maximum>18</maximum>
+		</supply_voltage>
+		<package>
+			<type>DIP</type>
+			<pins>16</pins>
+		</package>
+		<price>3.25</price>
+		<description>A wide range, temperature-compensated voltage controlled ocsillator featuring 1 volt per octave exponential response. Pulse and triangle waveform output.</description>
+	</device>
+	<device>
+		<name>MultiWave Voltage Controlled Oscillator</name>
+		<type>VCO</type>
+		<part_number>DS002</part_number>
+		<supply_voltage>
+			<minimum>3</minimum>
+			<maximum>15</maximum>
+		</supply_voltage>
+		<package>
+			<type>SOIC</type>
+			<pins>18</pins>
+		</package>
+		<package>
+			<type>DIP</type>
+			<pins>18</pins>
+		</package>
+		<price>3.79</price>
+		<description>A wide range, temperature-compensated voltage controlled ocsillator featuring 1 volt per octave exponential response. Pulse, triangle, and sine waveform output.</description>
+	</device>
+	<device>
+		<name>Economy Voltage Controlled Oscillator</name>
+		<type>VCO</type>
+		<part_number>DS003</part_number>
+		<supply_voltage>
+			<minimum>3</minimum>
+			<maximum>15</maximum>
+		</supply_voltage>
+		<package>
+			<type>SOIC</type>
+			<pins>8</pins>
+		</package>
+		<package>
+			<type>DIP</type>
+			<pins>8</pins>
+		</package>
+		<price>1.25</price>
+		<description>A low-cost, wide range, temperature-compensated voltage controlled ocsillator featuring 1 volt per octave exponential response. Square wave output.</description>
+	</device>
+	<device>
+		<name>State Variable Filter</name>
+		<type>VCF</type>
+		<part_number>DS011</part_number>
+		<supply_voltage>
+			<minimum>3</minimum>
+			<maximum>18</maximum>
+		</supply_voltage>
+		<package>
+			<type>DIP</type>
+			<pins>16</pins>
+		</package>
+		<package>
+			<type>SOIC</type>
+			<pins>16</pins>
+		</package>
+		<price>3.75</price>
+		<description>State varible filter with 12dB cutoff slope. Features simultaneous high pass, bandpass, and low pass output, and voltage controlled resonance.</description>
+	</device>
+	<device>
+		<name>Low Pass Filter</name>
+		<type>VCF</type>
+		<part_number>DS011</part_number>
+		<supply_voltage>
+			<minimum>3</minimum>
+			<maximum>18</maximum>
+		</supply_voltage>
+		<package>
+			<type>DIP</type>
+			<pins>14</pins>
+		</package>
+		<package>
+			<type>SOIC</type>
+			<pins>14</pins>
+		</package>
+		<price>3.25</price>
+		<description>Voltage controlled low pass filter with 24dB cutoff slope. Features simultaneous high pass, bandpass, and low pass output, and full voltage control of resonance.</description>
+	</device>
+</devices>

@@ -1,0 +1,14 @@
+<buttons>
+	<button>
+		<buttonType>text</buttonType>
+		<buttonName>AddGuides</buttonName>
+		<buttonFileName>/c/ButtonBar/AddGuides.jsx</buttonFileName>
+		<buttonIconFile></buttonIconFile>
+	</button>
+	<button>
+		<buttonType>text</buttonType>
+		<buttonName>CropMarks</buttonName>
+		<buttonFileName>/c/ButtonBar/CropMarks.jsx</buttonFileName>
+		<buttonIconFile></buttonIconFile>
+	</button>
+</buttons>

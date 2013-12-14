@@ -21,7 +21,6 @@ namespace PulseComm
         public void PushData(string data)
         {
             _remainedData += data;
-            AnalyzeMachineType();
             ProcessData();
         }
 
@@ -29,33 +28,18 @@ namespace PulseComm
         {
             if (_probingPhase)
                 return;
-            CommHexInfoBase info = NewCommHexInfo;
-            while (string.IsNullOrEmpty( _remainedData)  && _remainedData != info.DigestData(_remainedData))
-            {
-                if (info.IsEmpty)
-                    continue;
-                else
+           
                     _sampling.AddSample(info);
-            }
         }
 
-        private CommHexInfoBase NewCommHexInfo
+        private CommHexInfo NewCommHexInfo
         {
             get
             {
-                return new CommOldHexInfo();
+                return new CommHexInfo();
             }
         }
 
-
-        private void AnalyzeMachineType()
-        {
-            if (_probingPhase && _remainedData.Length > 100 && CommOldHexInfo.TryParse(_remainedData))
-            {
-                _machineVersion = MachineVersion.Old;
-                _probingPhase = false;
-            }
-        }
 
 
         enum MachineVersion

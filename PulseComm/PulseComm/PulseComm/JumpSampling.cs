@@ -6,7 +6,7 @@ namespace PulseComm
 {
     public class JumpSampling
     {
-        IList<CommHexInfoBase> _comList;
+        IList<CommHexInfo> _comList;
         double _max, _min;
         bool _start;
         string _msg;
@@ -23,7 +23,7 @@ namespace PulseComm
             _msg = "========================== \r\n"
                 + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "    ---- 开始采样";
             _start = true;
-            _comList = new List<CommHexInfoBase>();
+            _comList = new List<CommHexInfo>();
             _max = 0;
             _min = double.MaxValue;
         }
@@ -32,19 +32,10 @@ namespace PulseComm
             _msg = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "    ---- 采样结束，跳动值为： " + GetJumpValue().ToString() + "mm \r\n";
             _start = false;
         }
-        public void AddSample(CommHexInfoBase info)
+        public void AddSample(CommHexInfo info)
         {
-            if (!info.IsEmpty && !_start)
-                Start();
-            else if (info.IsEmpty && _start)
-                End();
-            else if (info.IsEmpty && !_start)
-                return;
-
-            if (!_start)
-                return;
             string msg;
-            bool passValidate = info.PassValidate(out msg);
+            bool passValidate = info.IsValidate;
             if (!passValidate)
             {
                 return;
