@@ -1,0 +1,63 @@
+Copyright 2009-2011 JIN Weijie, all rights reserved.
+
+The following licenses are applicable to version 1.0.0 of the ASTreeView control
+and greater. The term "control" is used throughout to mean all code, assemblies, images, and
+documentation that are distributed as part of the control.
+
+
+ASTreeView control Non-Commercial License version 1.0
+
+Under the terms of this license, the licensee is granted the following privileges:
+
+  - The right to use the control as part of a website or application that is not
+    used for commercial purposes
+
+
+Under no circumstance is the licensee permitted to redistribute the assembly, source code,
+images, or documentation contained in the control. All redistribution rights
+remain with the copyright holder unless specific prior written permission is
+obtained.
+
+Under no circumstance shall this copyright notice or list of conditions be
+modified or removed from the code distribution in either source or binary form.
+
+This software is provided by the copyright holder and contributors "as is" and
+any express or implied warranties, including, but not limited to, the implied
+warranties of merchantability and fitness for a particular purpose are disclaimed.
+
+In no event shall the copyright holder or contributors be liable for any direct,
+indirect, incidental, special, exemplary, or consequential damages (including, but
+not limited to, procurement of substitute goods or services; loss of use, data, or
+profits; or business interruption) however caused and on any theory of liability,
+whether in contract, strict liability, or tort (including negligence or otherwise)
+arising in any way out of the use of this software, even if advised of the
+possibility of such damage.
+
+
+ASTreeView control Commercial License version 1.0
+
+Under the terms of this license, the licensee is granted the following privileges:
+
+  - The right to use the control as part of a website or application that is
+    used for commercial purposes
+
+
+Under no circumstance is the licensee permitted to redistribute the source code,
+images, or documentation contained in the control. All redistribution rights
+remain with the copyright holder unless specific prior written permission is
+obtained.
+
+Under no circumstance shall this copyright notice or list of conditions be
+modified or removed from the code distribution in either source or binary form.
+
+This software is provided by the copyright holder and contributors "as is" and
+any express or implied warranties, including, but not limited to, the implied
+warranties of merchantability and fitness for a particular purpose are disclaimed.
+
+In no event shall the copyright holder or contributors be liable for any direct,
+indirect, incidental, special, exemplary, or consequential damages (including, but
+not limited to, procurement of substitute goods or services; loss of use, data, or
+profits; or business interruption) however caused and on any theory of liability,
+whether in contract, strict liability, or tort (including negligence or otherwise)
+arising in any way out of the use of this software, even if advised of the
+possibility of such damage.

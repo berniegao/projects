@@ -1,0 +1,10 @@
+D:\02_Programming\SurveyProjectDevelopment\SP21Final\_SourceEL6\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\02_Programming\SurveyProjectDevelopment\SP21Final\_SourceEL6\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\02_Programming\SurveyProjectDevelopment\SP21Final\_SourceEL6\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\02_Programming\SurveyProjectDevelopment\SP21Final\_SourceEL6\Blocks\Data\Src\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\02_Programming\SurveyProjectDevelopment\SP21Final\_SourceEL6\Blocks\Data\Src\Data\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.DesignResources.resources
+D:\02_Programming\SurveyProjectDevelopment\SP21Final\_SourceEL6\Blocks\Data\Src\Data\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Oracle.Configuration.DesignResources.resources
+D:\02_Programming\SurveyProjectDevelopment\SP21Final\_SourceEL6\Blocks\Data\Src\Data\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Properties.Resources.resources
+D:\02_Programming\SurveyProjectDevelopment\SP21Final\_SourceEL6\Blocks\Data\Src\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+D:\02_Programming\SurveyProjectDevelopment\SP21Final\_SourceEL6\Blocks\Data\Src\Data\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\02_Programming\SurveyProjectDevelopment\SP21Final\_SourceEL6\Blocks\Data\Src\Data\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb

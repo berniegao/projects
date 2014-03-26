@@ -169,6 +169,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Page.cs" />
+    <Compile Include="Models\Elements\AllGraphic.cs" />
+    <Compile Include="Models\Elements\GraphicLine.cs" />
+    <Compile Include="Models\Elements\PageElement.cs" />
+    <Compile Include="Models\Elements\Rectangle.cs" />
+    <Compile Include="Models\Elements\TextFrame.cs" />
+    <Compile Include="Models\Utility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -283,6 +290,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Indesing2Excel\Index.cshtml" />
+    <Content Include="Views\Indesing2Excel\AddDoc.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,398 @@
+﻿/* Survey v. 2.0 Release CSS additions - 2011/11 */
+
+
+/* Css for "mnuMain" menu in HeaderControl.ascx */
+
+.DynamicMenu { display: none; } 
+
+.level1
+{
+    color: White;
+    background-color: #5720C6;
+    
+    font-size: 13px;
+    font-weight: bold;
+    width: 85px;
+    text-align: left;
+    line-height:20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom:5px;
+    vertical-align:middle;
+    
+    border-radius: 0.25em 0.25em 0.25em 0.25em;
+      -moz-border-radius: 0.35em;
+     -webkit-border-radius: 0.35em;
+    
+}
+
+.level2
+{
+    color: White;
+    font-size: 12px;
+    background-color: #9999FF;
+    
+    min-width:120px;
+    max-width:300px;    
+    text-align: left;
+    font-weight: bold;
+}
+
+.level3
+{
+    color: White;
+    background-color: #9999FF;
+    font-size: 12px;
+    
+    min-width:134px;
+    max-width:250px;
+    text-align: left;
+}
+
+
+.level2 li
+{
+    border: black 1px solid;
+    padding: 3px;
+}
+.level3 li
+{
+    border: black 1px solid;
+}
+
+a.level1, a.level1:link, a.level1:visited, a.level1:active
+{
+    color: White;
+    font-weight: bold;
+}
+
+
+a.level2, a.level2:link, a.level2:visited, a.level2:active
+{
+    color: White;
+    border: solid black 1px;
+    font-weight: bold;
+}
+a.level3, a.level3:link, a.level3:visited, a.level3:active
+{
+    color: White;
+    border: solid black 1px;
+    font-weight: bold;
+}
+.level1 a:hover
+{
+    color: White;
+}
+.level2 a:hover
+{
+    color: Black;
+}
+.level3 a:hover
+{
+    color: Black;
+}
+
+.hoverstyle /* table column with space below . It did not workon tr */ td.rowwithseperator
+{
+    padding-bottom: 0px;
+}
+
+
+/* Some styling for Role privileges Checkbox list */
+
+.chkPrivs input
+{
+    margin-right: 3px;
+}
+.ErrorMessage
+{
+    color: Red;
+}
+
+/* This is to avoid Menu Flicker 
+
+div[$=mnuMain] ul li ul
+{
+    display: none;
+}
+
+div[$=mnuMain] ul li
+{
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+
+#$("[ID$='mnuMain']") ul li ul
+{
+    display: none;
+}
+
+#$("[ID$='mnuMain']") ul li
+{
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+
+.mnuMain ul li ul
+{
+    display: none;
+}
+
+.mnuMain ul li
+{
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+*/
+
+.mnuMain > ul > li
+{ 
+    display: inline-block;
+    list-style: none; 
+} 
+
+.mnuMain ul li ul 
+{ 
+    display: none; 
+    list-style: none; 
+}
+
+
+.mnuMain ul li ul li ul
+{ 
+    display: none; 
+    list-style: none; 
+}
+
+
+/* Tabs flicker */
+
+
+.mnuTabs > ul > li
+{ 
+    display: inline-block;
+    list-style: none; 
+} 
+
+.mnuTabs ul li ul 
+{ 
+    display: none; 
+    list-style: none; 
+
+}
+
+
+/*
+A few Form titles are spilling into 2 lines To fix this we have a new CSS class
+*/
+.TitleDisplayClass
+{
+    width: 300px;
+}
+
+/* When Entering Question Display Help text MultiLine */
+.HelpTextClass
+{
+    height: 30px;
+}
+
+.QuestionsDropDownClass
+{
+    width: 350px;
+}
+
+
+.RegisterLiteral
+{
+    color: Red;
+    font-size: xx-small;
+}
+.WarningMessage
+{
+    color: Red;
+    font-weight: bold;
+}
+.IPSection
+{
+    width: 42px;
+    min-width: 3;
+}
+.BorderedTable
+{
+    border: solid 1px black;
+   
+}
+.BorderedTable  td
+{
+    border: solid 1px black;
+}
+.StandardButton
+{
+    width: 80px;
+}
+.LongButton
+{
+    width: 105px;
+}
+.AlternateStyle
+{
+    background-color: #EAF2D3;
+}
+.AlternateStyle input[id*="lvTokens"]
+{
+    background-color:  #EAF2D3;
+    border: none;
+}
+input[id*="lvTokens"]
+{
+    border: none;
+    margin-right:10px;
+}
+
+a[id*="gvIPRanges"].IPLink
+{
+    color:Blue;
+       text-align:center;
+}
+a[id*="lbAddNew"].IPLink
+{
+    color:Blue;
+   
+}
+a.IPLink
+{
+  
+       text-align:center;
+}
+.AlignRight
+{
+  border:1.2px solid black;
+       text-align:right;
+}
+.AlignCentre
+{
+ 
+       text-align:center;
+}
+.AlignTextBox
+{
+       text-align:right;
+}
+.UnderLine
+{
+    text-decoration:underline;
+}
+.Instructions
+{
+    background-color: #9999FF;
+}
+#idFieldReportingTable
+{
+    width:603px;
+}
+.UnderLine
+{
+    font-weight:normal;
+    text-decoration:underline;
+}
+
+
+/* Library Directory CSS */
+
+.buttonBack
+{
+    float: left;
+    margin-right: 15px;
+    padding: 15px;
+}
+#LibaryEditDiv
+{
+    margin:0px;
+    padding:0px;
+}
+#tabs
+{
+    
+}
+
+/*Helpfiles Index */
+.buttonIndex
+{
+    float: right;
+    margin-right: 15px;
+    padding: 0px;
+}
+
+
+
+/* The hint to Hide and Show */
+.hint {
+
+position: relative;
+right: 10px;
+width: 100px;
+margin-top: -4px;
+border: 1px solid #c93;
+padding: 10px 12px;
+
+/* to fix IE6, I can't just declare a background-color,
+I must do a bg image, too! So I'm duplicating the pointer.gif
+image, and positioning it so that it doesn't show up
+within the box */
+
+background: #ffc url(~/images/pointer.gif) no-repeat -10px 5px;
+}
+
+
+/* The pointer image is added by using another span */
+
+.hint .hint-pointer {
+position: absolute;
+left: -10px;
+top: 5px;
+width: 10px;
+height: 19px;
+background: url(~/images/pointer.gif) left top no-repeat;
+} 
+
+
+/* Image Print button - used on VoterReport */
+
+.PrintImage
+{
+    background: url(~/nsurveyadmin/images/Print_32X32_Standard.png) left top no-repeat;
+    
+}
+
+
+/* Added SP 2.2: links social media icon's*/
+.Social-Links{text-align:center;padding:15px 0 0 0;}
+#dnn_SocialMediaPane .fb-like{margin-top: 20px; margin-left: -80px; position: absolute;}
+	.Social-Links a{margin:0 0 0 5px;}
+	.icoIN{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -192px 0;}
+	.icoFacebook{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat 0 0;}
+	.icoTwitter{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -32px 0;}
+	.icoTwitter2{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -576px 0;}
+	.icoMySpace{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -64px 0;}
+	.icoStumbleUpon{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -96px 0;}
+	.icoDigg{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -128px 0;}
+	.icoFlickr{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -160px 0;}
+	.icoLinkedIn{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -192px 0;}
+	.icoYouTube{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -224px 0;}
+	.icoDelicious{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -256px 0;}
+	.icoBlogger{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -288px 0;}
+	.icoRSS{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -320px 0;}
+	.icoEmail{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -352px 0;}
+	.icoTumblr{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -384px 0;}
+	.icoFourSquare{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -416px 0;}
+	.icoReddit{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -448px 0;}
+	.icoVimeo{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -480px 0;}
+	.icoWordPress{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -512px 0;}
+	.icoBebo{width:32px;height:32px;background:url(../../images/SocialMedia.png) no-repeat -544px 0;}
